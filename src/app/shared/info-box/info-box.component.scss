@@ -1,0 +1,39 @@
+:host {
+  background-color: aqua;
+  //width: 33.333333%;
+  flex: 1;
+  // margin: 5px;
+  // padding: 1em;
+
+  .info-box {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2em;
+    //margin: 1em;
+    background-color: #272727;
+
+    &.red {
+      background-color: #dc3545;
+    }
+
+    &.blue {
+      background-color: #007bff;
+    }
+
+    &.green {
+      background-color: #28a745;
+    }
+
+    &.yellow {
+      background-color: #ffc107;
+    }
+
+    &.lightblue {
+      background-color: #17a2b8;
+    }
+
+    &.grey {
+      background-color: #343a40;
+    }
+  }
+}
