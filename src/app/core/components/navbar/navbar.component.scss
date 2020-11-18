@@ -1,0 +1,27 @@
+:host {
+  display: block;
+  width: 100%;
+  height: 80px;
+  background-color: #ececec;
+
+  .nav-item {
+    font-size: 18px;
+    line-height: 76px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #111;
+
+    display: inline-block;
+
+    padding: 0 16px;
+    border-bottom: 4px solid rgba(0,0,0,0);
+
+    &.active {
+      font-size: 30px;
+      border-bottom: 4px solid rgba(0,0,0,0.5);
+    }
+  }
+}
+
+

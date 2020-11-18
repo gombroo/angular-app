@@ -10,4 +10,5 @@ export class AppComponent {
   title = 'tytul'; // klasa ma wlasnosc title
   subtitle ='podtytul';
   text = 'lorem';
+  click = 'klik';
 }
