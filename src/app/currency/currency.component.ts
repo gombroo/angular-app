@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CurrencyService } from './services/currency.service';
 
 @Component({
   selector: 'app-currency',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CurrencyComponent implements OnInit {
 
-  constructor() { }
+  constructor(private currency: CurrencyService) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    console.log('Show base currency: ', this.currency.getBaseCurrency() );
+    this.currency.setBaseCurrency('TEST CURRENCY');
   }
 
 }
