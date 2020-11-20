@@ -1,42 +1,36 @@
-<h2>App Component</h2>
-<!-- <h3>Tu będzie menu dla całej apki</h3>
-<app-button></app-button>
-<app-button></app-button>
-<app-button></app-button> -->
-
 <app-navbar></app-navbar>
 <router-outlet></router-outlet>
 
-<!-- <div class="container">
+<h2>App Component</h2>
+<div class="container">
+  <div class="row">
+    <app-info-box></app-info-box>
+  </div>
 
-  <app-info-box></app-info-box>
+  <div class="row">
+    <app-info-box [title]="'Tytuł Boxa 1'" [subtitle]="'Podtytuł 1'" [text]="'Tekst Info Boxa 1'" [version]="'green'">
+    </app-info-box>
+  </div>
 
-  <app-info-box [title]="'Tytuł Boxa 1'" [subtitle]="'Podtytuł 1'" [text]="'Tekst Info Boxa 1'"
-    [version]="'green'">
-  </app-info-box>
+  <div class="row">
+    <app-info-box [title]="'Tytuł Boxa 1'" [subtitle]="'Podtytuł 1'" [text]="'Tekst Info Boxa 1'" [version]="'yellow'">
+    </app-info-box>
+  </div>
 
-  <app-info-box [title]="'Tytuł Boxa 1'" [subtitle]="'Podtytuł 1'" [text]="'Tekst Info Boxa 1'"
-    [version]="'yellow'">
-  </app-info-box>
-
-  <app-info-box [title]="'Tytuł Boxa 1'" [subtitle]="'Podtytuł 1'" [text]="'Tekst Info Boxa 1'"
-    [version]="'red'">
-  </app-info-box>
-
-  <app-warning-box [title]="'Tytuł Boxa 1'" [subtitle]="'Podtytuł 1'" [text]="'Tekst Info Boxa 1'"
-    class="warning-box"
-    [version]="'lightblue'">
-  </app-warning-box>
-
-  <app-warning-box
-    [version]="'blue'">
-  </app-warning-box>
-
-</div> -->
-
-<!-- <div class="container">
-  <app-card></app-card>
-  <app-card></app-card>
+  <div class="row">
+    <app-info-box [title]="'Tytuł Boxa 1'" [subtitle]="'Podtytuł 1'" [text]="'Tekst Info Boxa 1'" [version]="'red'">
+    </app-info-box>
+  </div>
 </div>
 
- -->
+
+<!-- <div class="row">
+  <app-warning-box [title]="'Tytuł Boxa 1'" [subtitle]="'Podtytuł 1'" [text]="'Tekst Info Boxa 1'" class="warning-box"
+    [version]="'lightblue'">
+  </app-warning-box>
+</div>
+
+<div class="row">
+  <app-warning-box [version]="'blue'">
+  </app-warning-box>
+</div> -->
