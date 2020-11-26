@@ -1,0 +1,20 @@
+<h1>PARENT COMPONENT</h1>
+
+<h1>{{ value }}</h1>
+
+<button (click)="decrease()">-</button>
+<button (click)="increase()">+</button>
+
+<br/>
+<br/>
+<br/>
+
+<h2>Value from child:</h2>
+<h2>{{ valueFromChild }}</h2>
+
+<br/>
+
+<app-child
+  [valueFromParent]="value"
+  (valueFromChild)="handleValueFromChild($event)"
+></app-child>

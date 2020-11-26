@@ -1,0 +1,19 @@
+:host {
+  display: block;
+  background-color: #ffc107;
+  padding: 2em;
+  margin-bottom: 2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #272727;
+
+
+  h1, h2 {
+    font-weight: 400;
+  }
+
+  button {
+    padding: 1em;
+    margin: 2px;
+    font-size: 1.3em;
+  }
+}
