@@ -1,5 +1,25 @@
 <!-- <h3>Sandbox Component</h3> -->
-<app-parent></app-parent>
+<app-parent #jakiskomponent></app-parent>
+
+<input #box (keyup)="null" value="test">
+<p>{{ box.value }}</p>
+<br>
+<br>
+
+<!-- <button (click)="parent.increase()">Parent Increase 111</button> -->
+<button (click)="odpalDecreaseWKomponencieParent()">Parent Decrease</button>
+<button (click)="odpalIncreaseWKomponencieParent()">Parent Increase</button>
+<button (click)="wartoscZChild()">Parent Increase 333</button>
+
+<br>
+<br>
+
+<h2>Wartość z parenta wyświetlona bezpośednio w HTML:</h2>
+<h1>{{ jakiskomponent.value }}</h1>
+
+<br>
+<br>
+
 
 <!-- <div class="container">
   <div class="row">
@@ -17,5 +37,5 @@
   <div class="row">
     <app-info-box [title]="'Sanbdbox'" [version]="'red'"></app-info-box>
   </div>
-</div>
- -->
+</div> -->
+

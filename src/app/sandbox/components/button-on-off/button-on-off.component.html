@@ -1,0 +1,6 @@
+<div class="button-container"
+  [ngClass]="{'on': buttonIsOn, 'off': !buttonIsOn}"
+  (click)="toggle()">
+  <h1 *ngIf="buttonIsOn">ON</h1>
+  <h1 *ngIf="!buttonIsOn">OFF</h1>
+</div>

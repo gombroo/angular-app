@@ -1,0 +1,18 @@
+:host {
+  .button-container {
+    display: inline-block;
+    padding: 25px 0 10px 0;
+    width: 100px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+
+    &.on {
+      background: green;
+    }
+
+    &.off {
+      background: red;
+    }
+  }
+}

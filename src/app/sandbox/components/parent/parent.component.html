@@ -18,3 +18,10 @@
   [valueFromParent]="value"
   (valueFromChild)="handleValueFromChild($event)"
 ></app-child>
+
+<app-button-on-off [(buttonIsOn)]="buttonState"></app-button-on-off>
+
+<br/>
+<br/>
+
+<h2>Button state: {{ buttonState }}</h2>

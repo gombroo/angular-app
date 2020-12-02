@@ -1,8 +1,31 @@
-.container {
-  display: flex;
-  flex-wrap: wrap;
+:host {
+  display: block;
+  padding: 2em;
+  margin-bottom: 2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #272727;
+  text-align: center;
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .row {
+    flex: 1;
+  }
+
+  button {
+    padding: 1em;
+    margin: 2px;
+    font-size: 1em;
+    width: 300px;
+  }
+
+  input {
+    padding: 1em;
+  }
 }
 
-.row {
-  flex: 1;
-}
+
+

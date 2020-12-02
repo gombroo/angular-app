@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-parent',
@@ -10,6 +10,8 @@ export class ParentComponent implements OnInit {
   value: number = 200;
 
   valueFromChild: number = null;
+
+  buttonState: boolean = false;
 
   constructor() { }
 
